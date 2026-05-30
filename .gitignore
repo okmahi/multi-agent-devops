@@ -1,19 +1,39 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
 venv/
+.venv/
 
 # Environment variables
 .env
 
-# IntelliJ / PyCharm
+# IntelliJ
 .idea/
 
-# VS Code (if you ever use it)
+# VS Code
 .vscode/
 
-# Node.js
+# Node
 node_modules/
 
 # macOS
 .DS_Store
+
+# Logs
+*.log
+
+# Kubernetes temp files
+*.tmp
+
+# Coverage
+.coverage
+htmlcov/
+
+# Python build files
+build/
+dist/
+*.egg-info/
