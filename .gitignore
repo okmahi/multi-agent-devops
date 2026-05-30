@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Environment variables
+.env
+
+# IntelliJ / PyCharm
+.idea/
+
+# VS Code (if you ever use it)
+.vscode/
+
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
